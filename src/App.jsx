@@ -6,7 +6,9 @@ function App(){
 
   return (
     <>
-      <h1>Gerenciador de Tarefas</h1>
+      
+      <div className="titulo"><h1>Gerenciador de Tarefas</h1></div>
+      <div className="sep"><h2>Lista de Tarefas</h2></div>
       <ListaTarefas />
     </>
   );

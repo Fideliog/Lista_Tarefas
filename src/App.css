@@ -1,8 +1,29 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  margin-bottom: 20%;
   text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.titulo {
+  display: block;
+  width: 100%;
+  background-color:  #cbba7b;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.sep {
+  display: block; 
+  width: 100%;
+  color: #e8d695;
+  text-decoration: inherit;
+  font-size: 1.5em;
+  background-color:  #514a26;
+  text-align: center;
+  padding: 1rem 0;
 }
 
 .logo {
