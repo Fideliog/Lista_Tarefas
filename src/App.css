@@ -7,10 +7,16 @@
   border-radius: 8px;
 }
 
+.tarefa-concluida {
+  text-decoration: line-through;
+  color: #888;
+  background-color: #d4d0b4;
+}
+
 .titulo {
   display: block;
   width: 100%;
-  background-color:  #cbba7b;
+  background-color: #cbba7b;
   text-align: center;
   padding: 1rem 0;
 }
@@ -21,9 +27,64 @@
   color: #e8d695;
   text-decoration: inherit;
   font-size: 1.5em;
-  background-color:  #514a26;
+  background-color: #514a26;
   text-align: center;
   padding: 1rem 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.input-area {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 0.6em 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  flex: 1;
+  max-width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f5f2dc;
+  margin-bottom: 0.5rem;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: #cbba7b;
+  color: #514a26;
+  font-weight: bold;
+  padding: 0.4em 0.8em;
+  font-size: 0.9em;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+li button:hover {
+  background-color: #b4a466;
+  color: white;
 }
 
 .logo {
