@@ -1,12 +1,20 @@
-# React + Vite
+Gerenciador de Tarefas - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples de Lista de Tarefas desenvolvido com React. Ele permite ao usuário adicionar e remover tarefas, marcar como concluida, salvar localmente, ordenar por ondem alfabética e por data de adição.
 
-Currently, two official plugins are available:
+Objetivo do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O objetivo é demonstrar o uso de React com:
+- Manipulação de estado com useState
+- Persistência de dados com localStorage
+- Ordenação alfabética e por data
+- Marcação de tarefas como concluídas
+- Estilização com CSS
 
-## Expanding the ESLint configuration
+Como clonar e rodar o projeto:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Crie uma nova pasta no seu computador.
+- Abra o git bash dentro dela.
+- Utilize o comando "git clone https://github.com/Fideliog/IMC_React.git".
+- Rcesse a pasta do projeto e use o "npm install" para instalar as dependências necessárias.
+- Rode o código com "npm run dev" e abra o localhost correspondente que aparecer para você em um navegador.
