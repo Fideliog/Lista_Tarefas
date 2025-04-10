@@ -11,6 +11,10 @@ O objetivo é demonstrar o uso de React com:
 - Marcação de tarefas como concluídas
 - Estilização com CSS
 
+Video de apresentação no youTube:
+
+- https://youtu.be/pRj7e42_-54
+
 Como clonar e rodar o projeto:
 
 - Crie uma nova pasta no seu computador.

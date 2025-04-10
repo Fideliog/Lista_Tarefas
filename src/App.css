@@ -1,3 +1,4 @@
+/* Centraliza e define o estilo principal da área da aplicação */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -14,6 +15,7 @@ select {
   margin-left: 0.5em;
 }
 
+/* Estilo visual para tarefas marcadas como concluídas */
 .tarefa-concluida {
   text-decoration: line-through;
   color: #888;
@@ -39,6 +41,7 @@ select {
   padding: 1rem 0;
 }
 
+/* Área central da lista de tarefas */
 .container {
   max-width: 600px;
   margin: 2rem auto;
@@ -48,6 +51,7 @@ select {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+/* Estiliza a área de input e botões */
 .input-area {
   display: flex;
   gap: 0.5rem;
@@ -69,6 +73,7 @@ ul {
   padding: 0;
 }
 
+/* Estilo visual de cada item da lista */
 li {
   background-color: #f5f2dc;
   margin-bottom: 0.5rem;
@@ -79,6 +84,7 @@ li {
   align-items: center;
 }
 
+/* Botões de concluir/remover */
 li button {
   background-color: #cbba7b;
   color: #514a26;
