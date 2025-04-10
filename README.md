@@ -13,7 +13,7 @@ O objetivo é demonstrar o uso de React com:
 
 Video de apresentação no youTube:
 
-- https://youtu.be/pRj7e42_-54
+- https://youtu.be/bnpWb7ueHe0
 
 Como clonar e rodar o projeto:
 
