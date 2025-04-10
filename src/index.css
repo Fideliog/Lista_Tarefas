@@ -1,11 +1,13 @@
+
 :root {
-  /* Define variáveis e estilo base da aplicação */
   font-family: 'Times New Roman', Times, serif;
   line-height: 1.5;
   font-weight: 400;
+
   color-scheme: light dark;
-  color: rgba(104, 84, 49, 0.87); /* Cor padrão do texto */
-  background-color: #cbba7b; /* Fundo geral */
+  color: rgba(104, 84, 49, 0.87);
+  background-color: #cbba7b;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -13,17 +15,15 @@
 }
 
 a {
-  /* Estilo dos links */
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2; /* Cor ao passar o mouse */
+  color: #535bf2;
 }
 
 body {
-  /* Centraliza o conteúdo vertical e horizontalmente */
   margin: 0;
   display: flex;
   place-items: center;
@@ -37,35 +37,32 @@ h1 {
 }
 
 button {
-  /* Estilo global dos botões */
   border-radius: 8px;
   border: 2px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
-  background-color: #514a26; /* Cor principal do botão */
+  font-family: inherit;
+  background-color: #514a26;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: rgba(216, 180, 117, 0.87); /* Borda ao passar o mouse */
+  border-color: rgba(216, 180, 117, 0.87);
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color; /* Acessibilidade ao focar */
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    /* Tema claro para navegadores com preferência por cor clara */
     color: #213547;
     background-color: #ffffff;
   }
-
   a:hover {
     color: #747bff;
   }
-
   button {
     background-color: #f9f9f9;
   }
