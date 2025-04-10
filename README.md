@@ -15,6 +15,6 @@ Como clonar e rodar o projeto:
 
 - Crie uma nova pasta no seu computador.
 - Abra o git bash dentro dela.
-- Utilize o comando "git clone https://github.com/Fideliog/IMC_React.git".
+- Utilize o comando "git clone https://github.com/Fideliog/Lista_Tarefas.git".
 - Rcesse a pasta do projeto e use o "npm install" para instalar as dependências necessárias.
 - Rode o código com "npm run dev" e abra o localhost correspondente que aparecer para você em um navegador.
